@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="codedeploy 연동 세팅2">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController.java" afterDir="false" />
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="codedeploy 연동 세팅3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1310,7 +1311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663918877596</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="codedeploy 연동 세팅3">
+      <created>1663918988689</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663918988689</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1337,7 +1345,8 @@
     <MESSAGE value="s3 재세팅5" />
     <MESSAGE value="codedeploy 연동 세팅" />
     <MESSAGE value="codedeploy 연동 세팅2" />
-    <option name="LAST_COMMIT_MESSAGE" value="codedeploy 연동 세팅2" />
+    <MESSAGE value="codedeploy 연동 세팅3" />
+    <option name="LAST_COMMIT_MESSAGE" value="codedeploy 연동 세팅3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
