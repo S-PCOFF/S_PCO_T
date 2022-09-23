@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="s3 재세팅5">
-      <change afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="codedeploy 연동 세팅">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
@@ -1298,7 +1297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663911898621</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="codedeploy 연동 세팅">
+      <created>1663914669048</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663914669048</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1323,7 +1329,8 @@
     <MESSAGE value="s3 재세팅3" />
     <MESSAGE value="s3 재세팅4" />
     <MESSAGE value="s3 재세팅5" />
-    <option name="LAST_COMMIT_MESSAGE" value="s3 재세팅5" />
+    <MESSAGE value="codedeploy 연동 세팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="codedeploy 연동 세팅" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
