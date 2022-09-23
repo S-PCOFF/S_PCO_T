@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="s3 재세팅4">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="s3 재세팅5">
+      <change afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1290,7 +1291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663911686827</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="s3 재세팅5">
+      <created>1663911898621</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663911898621</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1314,7 +1322,8 @@
     <MESSAGE value="s3 재세팅2" />
     <MESSAGE value="s3 재세팅3" />
     <MESSAGE value="s3 재세팅4" />
-    <option name="LAST_COMMIT_MESSAGE" value="s3 재세팅4" />
+    <MESSAGE value="s3 재세팅5" />
+    <option name="LAST_COMMIT_MESSAGE" value="s3 재세팅5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
