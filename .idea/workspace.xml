@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="travis s3 연동">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1332,7 +1333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663920996747</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="travis s3 연동">
+      <created>1663921965553</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663921965553</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
