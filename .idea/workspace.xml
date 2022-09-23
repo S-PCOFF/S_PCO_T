@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="travis.yml 설정">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="travis.yml 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1174,7 +1175,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Application">
@@ -1248,7 +1249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663899344706</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="travis.yml 수정">
+      <created>1663899603314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663899603314</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1266,7 +1274,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="테스트 소스 업로드" />
     <MESSAGE value="travis.yml 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="travis.yml 설정" />
+    <MESSAGE value="travis.yml 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis.yml 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
