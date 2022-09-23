@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="travis s3 연동">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="travis s3 연동 V3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1340,7 +1338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663921965553</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="travis s3 연동 V3">
+      <created>1663922326536</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663922326536</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1369,7 +1374,8 @@
     <MESSAGE value="codedeploy 연동 세팅2" />
     <MESSAGE value="codedeploy 연동 세팅3" />
     <MESSAGE value="travis s3 연동" />
-    <option name="LAST_COMMIT_MESSAGE" value="travis s3 연동" />
+    <MESSAGE value="travis s3 연동 V3" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis s3 연동 V3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
