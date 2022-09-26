@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="배포자동화구성 테스트7">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="배포자동화구성 테스트8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1480,7 +1481,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664184441774</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="배포자동화구성 테스트8">
+      <created>1664184811240</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1664184811240</updated>
+    </task>
+    <task id="LOCAL-00038" summary="배포자동화구성 테스트8">
+      <created>1664184819521</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664184819521</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1506,7 +1521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="s3 재세팅4" />
     <MESSAGE value="s3 재세팅5" />
     <MESSAGE value="codedeploy 연동 세팅" />
     <MESSAGE value="codedeploy 연동 세팅2" />
@@ -1531,7 +1545,8 @@
     <MESSAGE value="배포자동화구성 테스트5" />
     <MESSAGE value="배포자동화구성 테스트6" />
     <MESSAGE value="배포자동화구성 테스트7" />
-    <option name="LAST_COMMIT_MESSAGE" value="배포자동화구성 테스트7" />
+    <MESSAGE value="배포자동화구성 테스트8" />
+    <option name="LAST_COMMIT_MESSAGE" value="배포자동화구성 테스트8" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
