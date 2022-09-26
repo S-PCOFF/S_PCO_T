@@ -51,5 +51,3 @@ notifications:
   email:
     recipients:
       - 'spcoff@naver.com'
-
-

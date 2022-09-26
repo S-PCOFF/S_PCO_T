@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="travis CI - S3 재연동V2">
-      <change afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="travis CI - S3 - codedeploy 재연동V1">
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1387,7 +1385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664172593854</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="travis CI - S3 - codedeploy 재연동V1">
+      <created>1664174335560</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1664174335560</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1422,7 +1427,8 @@
     <MESSAGE value="travis CI 재연동V1" />
     <MESSAGE value="travis CI - S3 재연동V1" />
     <MESSAGE value="travis CI - S3 재연동V2" />
-    <option name="LAST_COMMIT_MESSAGE" value="travis CI - S3 재연동V2" />
+    <MESSAGE value="travis CI - S3 - codedeploy 재연동V1" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis CI - S3 - codedeploy 재연동V1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
