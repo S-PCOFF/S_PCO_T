@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="배포자동화구성 테스트5">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="배포자동화구성 테스트6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1466,7 +1467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664183471833</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="배포자동화구성 테스트6">
+      <created>1664183878270</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1664183878270</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1492,7 +1500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="s3 재세팅2" />
     <MESSAGE value="s3 재세팅3" />
     <MESSAGE value="s3 재세팅4" />
     <MESSAGE value="s3 재세팅5" />
@@ -1517,7 +1524,8 @@
     <MESSAGE value="배포자동화구성 테스트3" />
     <MESSAGE value="배포자동화구성 테스트4" />
     <MESSAGE value="배포자동화구성 테스트5" />
-    <option name="LAST_COMMIT_MESSAGE" value="배포자동화구성 테스트5" />
+    <MESSAGE value="배포자동화구성 테스트6" />
+    <option name="LAST_COMMIT_MESSAGE" value="배포자동화구성 테스트6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
