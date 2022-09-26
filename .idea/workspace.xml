@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="travis CI - S3 - codedeploy 재연동V2">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="travis CI - S3 - codedeploy 재연동V3">
+      <change afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1178,6 +1180,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T\scripts" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.shds.pco" />
     </key>
@@ -1400,7 +1405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664174550480</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="travis CI - S3 - codedeploy 재연동V3">
+      <created>1664175753023</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1664175753023</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1437,7 +1449,8 @@
     <MESSAGE value="travis CI - S3 재연동V2" />
     <MESSAGE value="travis CI - S3 - codedeploy 재연동V1" />
     <MESSAGE value="travis CI - S3 - codedeploy 재연동V2" />
-    <option name="LAST_COMMIT_MESSAGE" value="travis CI - S3 - codedeploy 재연동V2" />
+    <MESSAGE value="travis CI - S3 - codedeploy 재연동V3" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis CI - S3 - codedeploy 재연동V3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
