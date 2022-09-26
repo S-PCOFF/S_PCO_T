@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="배포자동화구성 테스트4">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="배포자동화구성 테스트5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1460,7 +1459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664183206870</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="배포자동화구성 테스트5">
+      <created>1664183471833</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1664183471833</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1486,7 +1492,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="s3 재세팅" />
     <MESSAGE value="s3 재세팅2" />
     <MESSAGE value="s3 재세팅3" />
     <MESSAGE value="s3 재세팅4" />
@@ -1511,7 +1516,8 @@
     <MESSAGE value="배포자동화구성 테스트2" />
     <MESSAGE value="배포자동화구성 테스트3" />
     <MESSAGE value="배포자동화구성 테스트4" />
-    <option name="LAST_COMMIT_MESSAGE" value="배포자동화구성 테스트4" />
+    <MESSAGE value="배포자동화구성 테스트5" />
+    <option name="LAST_COMMIT_MESSAGE" value="배포자동화구성 테스트5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
