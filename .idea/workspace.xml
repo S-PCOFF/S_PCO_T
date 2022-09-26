@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="travis s3 연동 V5">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="travis CI 재연동V1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
@@ -1365,7 +1365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663923342167</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="travis CI 재연동V1">
+      <created>1664171179608</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1664171179608</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1397,7 +1404,8 @@
     <MESSAGE value="travis s3 연동 V3" />
     <MESSAGE value="travis s3 연동 V4" />
     <MESSAGE value="travis s3 연동 V5" />
-    <option name="LAST_COMMIT_MESSAGE" value="travis s3 연동 V5" />
+    <MESSAGE value="travis CI 재연동V1" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis CI 재연동V1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
