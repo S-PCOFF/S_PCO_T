@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="배포자동화구성 테스트3">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="배포자동화구성 테스트4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -1445,8 +1445,26 @@
       <option name="project" value="LOCAL" />
       <updated>1664182875781</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="배포자동화구성 테스트3">
+      <created>1664183032325</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1664183032325</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1460,7 +1478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="s3 세팅" />
     <MESSAGE value="s3 재세팅" />
     <MESSAGE value="s3 재세팅2" />
     <MESSAGE value="s3 재세팅3" />
@@ -1485,7 +1502,8 @@
     <MESSAGE value="배포자동화구성 테스트" />
     <MESSAGE value="배포자동화구성 테스트2" />
     <MESSAGE value="배포자동화구성 테스트3" />
-    <option name="LAST_COMMIT_MESSAGE" value="배포자동화구성 테스트3" />
+    <MESSAGE value="배포자동화구성 테스트4" />
+    <option name="LAST_COMMIT_MESSAGE" value="배포자동화구성 테스트4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
