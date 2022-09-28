@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="nginx 세팅2">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="nginx 세팅4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1523,7 +1524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664331281938</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="nginx 세팅4">
+      <created>1664331475189</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1664331475189</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1549,7 +1557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="travis s3 연동" />
     <MESSAGE value="travis s3 연동 V3" />
     <MESSAGE value="travis s3 연동 V4" />
     <MESSAGE value="travis s3 연동 V5" />
@@ -1574,7 +1581,8 @@
     <MESSAGE value="초기버전 세팅 배포" />
     <MESSAGE value="nginx 세팅1" />
     <MESSAGE value="nginx 세팅2" />
-    <option name="LAST_COMMIT_MESSAGE" value="nginx 세팅2" />
+    <MESSAGE value="nginx 세팅4" />
+    <option name="LAST_COMMIT_MESSAGE" value="nginx 세팅4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
