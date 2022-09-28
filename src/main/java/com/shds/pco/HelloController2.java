@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController2 {
     @GetMapping("/hello2")
     public String hello(){
-        return "hello!!! nginx 버전2";
+        return "hello!!! nginx 버전3";
     }
 }
