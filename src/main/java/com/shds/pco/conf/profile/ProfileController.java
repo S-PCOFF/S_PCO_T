@@ -1,6 +1,7 @@
 package com.shds.pco.conf.profile;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,8 +13,12 @@ import java.util.List;
 @RestController
 public class ProfileController {
 
-    //@Autowired
-    private final Environment env;
+    private Environment env;
+
+    @Autowired
+    public ProfileController(Environment env) {
+        this.env = env;
+    }
 
     @GetMapping(value = "/profile")
     public String profile() {

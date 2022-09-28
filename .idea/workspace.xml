@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="다시 세팅3" />
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="다시 세팅3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/profile/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/profile/ProfileController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1555,7 +1558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664340463927</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="다시 세팅3">
+      <created>1664340561036</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1664340561036</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
