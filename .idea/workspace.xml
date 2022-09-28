@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="다시 세팅3">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="다시 세팅5">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/profile/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/profile/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1565,7 +1566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664340561036</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="다시 세팅5">
+      <created>1664340699853</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1664340699853</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1591,7 +1599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="travis CI - S3 재연동V1" />
     <MESSAGE value="travis CI - S3 재연동V2" />
     <MESSAGE value="travis CI - S3 - codedeploy 재연동V1" />
     <MESSAGE value="travis CI - S3 - codedeploy 재연동V2" />
@@ -1616,7 +1623,8 @@
     <MESSAGE value="다시 세팅" />
     <MESSAGE value="다시 세팅2" />
     <MESSAGE value="다시 세팅3" />
-    <option name="LAST_COMMIT_MESSAGE" value="다시 세팅3" />
+    <MESSAGE value="다시 세팅5" />
+    <option name="LAST_COMMIT_MESSAGE" value="다시 세팅5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
