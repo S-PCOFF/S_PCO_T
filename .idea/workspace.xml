@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="switch.sh 수정">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="쉘수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/health.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/health.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/profile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/profile.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1234,13 +1233,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00027" summary="배포자동화구성V1">
-      <created>1664181097752</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1664181097752</updated>
-    </task>
     <task id="LOCAL-00028" summary="배포자동화구성V3">
       <created>1664182012020</created>
       <option name="number" value="00028" />
@@ -1577,7 +1569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664360798544</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="쉘수정">
+      <created>1664361499958</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1664361499958</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1603,7 +1602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="다시 세팅2" />
     <MESSAGE value="다시 세팅3" />
     <MESSAGE value="다시 세팅5" />
     <MESSAGE value="다시 세팅6" />
@@ -1628,7 +1626,8 @@
     <MESSAGE value="무중단 배포 테스트16" />
     <MESSAGE value="profile.sh 수정" />
     <MESSAGE value="switch.sh 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch.sh 수정" />
+    <MESSAGE value="쉘수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="쉘수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
