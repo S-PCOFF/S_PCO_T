@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="추가 재시작2">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="ip 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/health.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/health.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/profile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/profile.sh" afterDir="false" />
@@ -1235,13 +1236,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00036" summary="배포자동화구성 테스트7">
-      <created>1664184441774</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1664184441774</updated>
-    </task>
     <task id="LOCAL-00037" summary="배포자동화구성 테스트8">
       <created>1664184811240</created>
       <option name="number" value="00037" />
@@ -1578,7 +1572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664364976586</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="ip 추가">
+      <created>1664365412290</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1664365412290</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1604,7 +1605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="무중단배포 테스트2" />
     <MESSAGE value="무중단배포 테스트3" />
     <MESSAGE value="무중단배포 테스트4" />
     <MESSAGE value="무중단배포 테스트5" />
@@ -1629,7 +1629,8 @@
     <MESSAGE value="삭제 재시작" />
     <MESSAGE value="추가 재시작" />
     <MESSAGE value="추가 재시작2" />
-    <option name="LAST_COMMIT_MESSAGE" value="추가 재시작2" />
+    <MESSAGE value="ip 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="ip 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
