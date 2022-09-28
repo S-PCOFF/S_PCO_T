@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="application 등록">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="delploy.sh 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1233,13 +1232,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00003" summary="테스트 소스 업로드">
-      <created>1663898168484</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1663898168484</updated>
-    </task>
     <task id="LOCAL-00004" summary="travis.yml 설정">
       <created>1663899344706</created>
       <option name="number" value="00004" />
@@ -1576,7 +1568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664341817672</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="delploy.sh 수정">
+      <created>1664342287582</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1664342287582</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1602,7 +1601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="travis CI - S3 - codedeploy 재연동V2" />
     <MESSAGE value="travis CI - S3 - codedeploy 재연동V3" />
     <MESSAGE value="배포자동화구성V1" />
     <MESSAGE value="배포자동화구성V2" />
@@ -1627,7 +1625,8 @@
     <MESSAGE value="다시 세팅5" />
     <MESSAGE value="다시 세팅6" />
     <MESSAGE value="application 등록" />
-    <option name="LAST_COMMIT_MESSAGE" value="application 등록" />
+    <MESSAGE value="delploy.sh 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="delploy.sh 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
