@@ -11,10 +11,16 @@ import java.util.Arrays;
 import java.util.List;
 
 
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 @RestController
 @RequestMapping("/profile")
 public class ProfileController {
+
+    public ProfileController(Environment env) {
+        this.env = env;
+    }
+
+    @Autowired
     private final Environment env;
 
     @GetMapping
