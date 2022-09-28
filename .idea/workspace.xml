@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="무중단 배포 테스트16">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="profile.sh 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/profile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/profile.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/switch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/switch.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1233,13 +1233,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00025" summary="travis CI - S3 - codedeploy 재연동V2">
-      <created>1664174550480</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1664174550480</updated>
-    </task>
     <task id="LOCAL-00026" summary="travis CI - S3 - codedeploy 재연동V3">
       <created>1664175753023</created>
       <option name="number" value="00026" />
@@ -1576,7 +1569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664359515510</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="profile.sh 수정">
+      <created>1664360500087</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1664360500087</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1602,7 +1602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nginx 다시 세팅1" />
     <MESSAGE value="다시 세팅" />
     <MESSAGE value="다시 세팅2" />
     <MESSAGE value="다시 세팅3" />
@@ -1627,7 +1626,8 @@
     <MESSAGE value="무중단배포 테스트15" />
     <MESSAGE value="무중단배포 쉘 수정" />
     <MESSAGE value="무중단 배포 테스트16" />
-    <option name="LAST_COMMIT_MESSAGE" value="무중단 배포 테스트16" />
+    <MESSAGE value="profile.sh 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile.sh 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
