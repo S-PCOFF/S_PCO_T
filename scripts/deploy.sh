@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-REPOSITORY=/home/ec2-user/app/step2
+REPOSITORY=/home/ec2-user/app/step3
 PROJECT_NAME=S_PCO_T
 
 echo "> Build 파일 복사"
