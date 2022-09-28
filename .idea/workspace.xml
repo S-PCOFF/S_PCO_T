@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="쉘수정2">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="쉘수정3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/profile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/profile.sh" afterDir="false" />
     </list>
@@ -1233,13 +1233,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00030" summary="배포자동화구성 테스트2">
-      <created>1664182733429</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1664182733429</updated>
-    </task>
     <task id="LOCAL-00031" summary="배포자동화구성 테스트2">
       <created>1664182875781</created>
       <option name="number" value="00031" />
@@ -1576,7 +1569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664362653062</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="쉘수정3">
+      <created>1664363393875</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1664363393875</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1602,7 +1602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="다시 세팅5" />
     <MESSAGE value="다시 세팅6" />
     <MESSAGE value="application 등록" />
     <MESSAGE value="delploy.sh 수정" />
@@ -1627,7 +1626,8 @@
     <MESSAGE value="switch.sh 수정" />
     <MESSAGE value="쉘수정" />
     <MESSAGE value="쉘수정2" />
-    <option name="LAST_COMMIT_MESSAGE" value="쉘수정2" />
+    <MESSAGE value="쉘수정3" />
+    <option name="LAST_COMMIT_MESSAGE" value="쉘수정3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
