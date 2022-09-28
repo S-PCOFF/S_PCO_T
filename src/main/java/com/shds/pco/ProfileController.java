@@ -1,4 +1,4 @@
-package com.shds.pco.conf.profile;
+package com.shds.pco;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
