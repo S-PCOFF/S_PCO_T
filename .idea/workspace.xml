@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="무중단배포 테스트4">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="무중단배포 테스트5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/stop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/stop.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/switch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/switch.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1236,13 +1233,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00011" summary="s3 재세팅5">
-      <created>1663911898621</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1663911898621</updated>
-    </task>
     <task id="LOCAL-00012" summary="codedeploy 연동 세팅">
       <created>1663914669048</created>
       <option name="number" value="00012" />
@@ -1579,7 +1569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664346774286</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="무중단배포 테스트5">
+      <created>1664347132280</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1664347132280</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1605,7 +1602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="배포자동화구성 테스트2" />
     <MESSAGE value="배포자동화구성 테스트3" />
     <MESSAGE value="배포자동화구성 테스트4" />
     <MESSAGE value="배포자동화구성 테스트5" />
@@ -1630,7 +1626,8 @@
     <MESSAGE value="무중단배포 테스트2" />
     <MESSAGE value="무중단배포 테스트3" />
     <MESSAGE value="무중단배포 테스트4" />
-    <option name="LAST_COMMIT_MESSAGE" value="무중단배포 테스트4" />
+    <MESSAGE value="무중단배포 테스트5" />
+    <option name="LAST_COMMIT_MESSAGE" value="무중단배포 테스트5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
