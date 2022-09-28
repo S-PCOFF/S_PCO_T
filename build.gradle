@@ -21,7 +21,7 @@ apply plugin: 'io.spring.dependency-management'
 }*/
 
 group 'com.shds.pco'
-version '1.0.1-SNAPSHOT'
+version '1.0.2-SNAPSHOT'
 sourceCompatibility = 1.8
 
 
@@ -35,7 +35,6 @@ dependencies {
     implementation 'org.projectlombok:lombok'
     compileClasspath('org.projectlombok:lombok')
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    //implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 }
 
 /*dependencies {

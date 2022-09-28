@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="nginx 다시 세팅1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="다시 세팅">
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1537,7 +1536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664331700089</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="다시 세팅">
+      <created>1664331840442</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1664331840442</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1563,7 +1569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="travis s3 연동 V4" />
     <MESSAGE value="travis s3 연동 V5" />
     <MESSAGE value="travis CI 재연동V1" />
     <MESSAGE value="travis CI - S3 재연동V1" />
@@ -1588,7 +1593,8 @@
     <MESSAGE value="nginx 세팅2" />
     <MESSAGE value="nginx 세팅4" />
     <MESSAGE value="nginx 다시 세팅1" />
-    <option name="LAST_COMMIT_MESSAGE" value="nginx 다시 세팅1" />
+    <MESSAGE value="다시 세팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="다시 세팅" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
