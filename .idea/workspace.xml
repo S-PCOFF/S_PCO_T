@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="ProfileController 수정">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="build.gradle 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1234,20 +1234,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00040" summary="초기버전 세팅 배포">
-      <created>1664326231579</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1664326231579</updated>
-    </task>
-    <task id="LOCAL-00041" summary="nginx 세팅1">
-      <created>1664331031101</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1664331031101</updated>
-    </task>
     <task id="LOCAL-00042" summary="nginx 세팅2">
       <created>1664331281938</created>
       <option name="number" value="00042" />
@@ -1577,7 +1563,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664366571989</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="ProfileController 수정">
+      <created>1664366882888</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1664366882888</updated>
+    </task>
+    <task id="LOCAL-00090" summary="build.gradle 수정">
+      <created>1664367050959</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1664367050959</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1603,7 +1603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="무중단배포 테스트6" />
     <MESSAGE value="무중단배포 테스트7" />
     <MESSAGE value="무중단배포 테스트8" />
     <MESSAGE value="무중단배포 테스트9" />
@@ -1628,7 +1627,8 @@
     <MESSAGE value="SecurityConfig 추가" />
     <MESSAGE value="SecurityConfig 수정" />
     <MESSAGE value="ProfileController 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="ProfileController 수정" />
+    <MESSAGE value="build.gradle 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="build.gradle 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
