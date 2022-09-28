@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="초기버전 세팅 배포">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/profile/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="nginx 세팅1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1511,7 +1510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664326231579</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="nginx 세팅1">
+      <created>1664331031101</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1664331031101</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1537,7 +1543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="codedeploy 연동 세팅2" />
     <MESSAGE value="codedeploy 연동 세팅3" />
     <MESSAGE value="travis s3 연동" />
     <MESSAGE value="travis s3 연동 V3" />
@@ -1562,7 +1567,8 @@
     <MESSAGE value="배포자동화구성 테스트8" />
     <MESSAGE value="배포자동화구성 테스트9" />
     <MESSAGE value="초기버전 세팅 배포" />
-    <option name="LAST_COMMIT_MESSAGE" value="초기버전 세팅 배포" />
+    <MESSAGE value="nginx 세팅1" />
+    <option name="LAST_COMMIT_MESSAGE" value="nginx 세팅1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
