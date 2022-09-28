@@ -12,7 +12,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RestController
 public class ProfileController {
-    private final Environment env;
+    private Environment env;
 
     @GetMapping("/profile")
     public String profile() {
