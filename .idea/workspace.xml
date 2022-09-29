@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="ip변경처리">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/health.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/health.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" afterDir="false" />
-    </list>
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="IP변경 처리2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1234,13 +1230,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00049" summary="다시 세팅5">
-      <created>1664340699853</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1664340699853</updated>
-    </task>
     <task id="LOCAL-00050" summary="다시 세팅6">
       <created>1664341305049</created>
       <option name="number" value="00050" />
@@ -1577,7 +1566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664444352880</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="IP변경 처리2">
+      <created>1664444697204</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1664444697204</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1603,7 +1599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="무중단배포 테스트14" />
     <MESSAGE value="무중단배포 테스트15" />
     <MESSAGE value="무중단배포 쉘 수정" />
     <MESSAGE value="무중단 배포 테스트16" />
@@ -1628,7 +1623,8 @@
     <MESSAGE value="재배포 테스트" />
     <MESSAGE value="재배포 테스트1" />
     <MESSAGE value="ip변경처리" />
-    <option name="LAST_COMMIT_MESSAGE" value="ip변경처리" />
+    <MESSAGE value="IP변경 처리2" />
+    <option name="LAST_COMMIT_MESSAGE" value="IP변경 처리2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
