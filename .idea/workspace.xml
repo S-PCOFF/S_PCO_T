@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="테스트 배포">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="profile.sh 수정2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/profile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/profile.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/HelloController2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1233,13 +1233,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00044" summary="nginx 다시 세팅1">
-      <created>1664331700089</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1664331700089</updated>
-    </task>
     <task id="LOCAL-00045" summary="다시 세팅">
       <created>1664331840442</created>
       <option name="number" value="00045" />
@@ -1576,7 +1569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664440042050</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="profile.sh 수정">
+      <created>1664440546566</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1664440546567</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1602,7 +1602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="무중단배포 테스트9" />
     <MESSAGE value="무중단배포 테스트10" />
     <MESSAGE value="무중단배포 테스트11" />
     <MESSAGE value="무중단배포 테스트13" />
@@ -1610,7 +1609,6 @@
     <MESSAGE value="무중단배포 테스트15" />
     <MESSAGE value="무중단배포 쉘 수정" />
     <MESSAGE value="무중단 배포 테스트16" />
-    <MESSAGE value="profile.sh 수정" />
     <MESSAGE value="switch.sh 수정" />
     <MESSAGE value="쉘수정" />
     <MESSAGE value="쉘수정2" />
@@ -1627,7 +1625,9 @@
     <MESSAGE value="build.gradle 수정" />
     <MESSAGE value="재배포" />
     <MESSAGE value="테스트 배포" />
-    <option name="LAST_COMMIT_MESSAGE" value="테스트 배포" />
+    <MESSAGE value="profile.sh 수정" />
+    <MESSAGE value="profile.sh 수정2" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile.sh 수정2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
