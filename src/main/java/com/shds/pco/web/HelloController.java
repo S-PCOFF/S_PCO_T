@@ -1,4 +1,4 @@
-package com.shds.pco;
+package com.shds.pco.web;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
