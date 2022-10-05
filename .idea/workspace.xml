@@ -4,8 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="JPA 적용버전 업데이트3">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="JPA 적용버전 업데이트4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/LoginUserArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/dto/PostsListResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/header.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-save.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-update.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/dto/OAuthAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/dto/OAuthAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/dto/SessionUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/dto/SessionUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/posts/PostsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/CustomOAuth2UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/CustomOAuth2UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/service/posts/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/HelloController2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/PostsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shds/pco/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shds/pco/web/PostsApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1128,30 +1157,35 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ShinhanDS/git/PC_OFF/S_PCO_T&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ShinhanDS/git/PC_OFF/S_PCO_T",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T" />
       <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T\src\main\resources\static\js\app" />
+      <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T\src\main\resources\templates\js.app" />
+      <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T\src\main\resources" />
+      <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T\src\main\resources\templates\layout" />
       <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T\scripts" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.shds.pco" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostsApiControllerTest.BaseTimeEntity_등록">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shds.pco.Application" />
       <module name="S_PCO_T.main" />
@@ -1161,6 +1195,42 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S_PCO_T [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PostsApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="S_PCO_T.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shds.pco.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shds.pco.web" />
+      <option name="MAIN_CLASS_NAME" value="com.shds.pco.web.PostsApiControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1176,22 +1246,6 @@
       <option name="PACKAGE_NAME" value="com.shds.pco.web" />
       <option name="MAIN_CLASS_NAME" value="com.shds.pco.web.PostsApiControllerTest" />
       <option name="METHOD_NAME" value="BaseTimeEntity_등록" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostsApiControllerTest.Posts_등록된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S_PCO_T.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shds.pco.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shds.pco.web" />
-      <option name="MAIN_CLASS_NAME" value="com.shds.pco.web.PostsApiControllerTest" />
-      <option name="METHOD_NAME" value="Posts_등록된다" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1213,29 +1267,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostsRepositoryTest.게시글저장_불러오기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S_PCO_T.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shds.pco.domain.posts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shds.pco.domain.posts" />
-      <option name="MAIN_CLASS_NAME" value="com.shds.pco.domain.posts.PostsRepositoryTest" />
-      <option name="METHOD_NAME" value="게시글저장_불러오기" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostsApiControllerTest.BaseTimeEntity_등록" />
-        <item itemvalue="JUnit.PostsApiControllerTest.Posts_등록된다" />
-        <item itemvalue="JUnit.PostsRepositoryTest.게시글저장_불러오기" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.PostsApiControllerTest" />
+        <item itemvalue="Gradle.S_PCO_T [test]" />
         <item itemvalue="JUnit.PostsApiControllerTest.Posts_수정된다" />
+        <item itemvalue="JUnit.PostsApiControllerTest.BaseTimeEntity_등록" />
       </list>
     </recent_temporary>
   </component>
@@ -1247,13 +1285,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
-    </task>
-    <task id="LOCAL-00053" summary="delploy.sh 수정2">
-      <created>1664342560387</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1664342560387</updated>
     </task>
     <task id="LOCAL-00054" summary="무중단배포 테스트1">
       <created>1664345608374</created>
@@ -1591,7 +1622,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664878200669</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="JPA 적용버전 업데이트4">
+      <created>1664878341811</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1664878341811</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1617,7 +1655,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="쉘수정" />
     <MESSAGE value="쉘수정2" />
     <MESSAGE value="쉘수정3" />
     <MESSAGE value="쉘수정4" />
@@ -1642,7 +1679,8 @@
     <MESSAGE value="JPA 적용버전 업데이트" />
     <MESSAGE value="JPA 적용버전 업데이트2" />
     <MESSAGE value="JPA 적용버전 업데이트3" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA 적용버전 업데이트3" />
+    <MESSAGE value="JPA 적용버전 업데이트4" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA 적용버전 업데이트4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

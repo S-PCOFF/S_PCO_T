@@ -1,7 +1,7 @@
 package com.shds.pco.domain.user;
 
-/*
-import com.shds.pco.conf.BaseTimeEntity;
+
+import com.shds.pco.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -46,4 +46,4 @@ public class User extends BaseTimeEntity {
     public String getRoleKey() {
         return  this.role.getKey();
     }
-}*/
+}

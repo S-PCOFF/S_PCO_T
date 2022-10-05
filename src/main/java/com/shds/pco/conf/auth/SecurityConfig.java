@@ -1,5 +1,5 @@
 package com.shds.pco.conf.auth;
-/*
+
 
 import com.shds.pco.domain.user.CustomOAuth2UserService;
 import com.shds.pco.domain.user.Role;
@@ -29,6 +29,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .oauth2Login()//7
                 .userInfoEndpoint()//8
-                .userService(customOAuth2UserService);//9
+                .userService(customOAuth2UserService);
     }
-}*/
+
+}

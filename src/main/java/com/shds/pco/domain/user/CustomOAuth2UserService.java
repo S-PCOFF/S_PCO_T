@@ -1,6 +1,6 @@
 package com.shds.pco.domain.user;
 
-/*
+
 import com.shds.pco.conf.auth.dto.OAuthAttributes;
 import com.shds.pco.conf.auth.dto.SessionUser;
 import lombok.RequiredArgsConstructor;
@@ -55,4 +55,4 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
                 .orElse(attributes.toEntity());
         return userRepository.save(user);
     }
-}*/
+}
