@@ -2,9 +2,6 @@ FROM openjdk:8
 
 WORKDIR /root
 
-COPY ./*S_PCO_T*.jar .
+COPY ./home/ec2-user/app/step3/S_PCO_T-*.jar .
 
-CMD java -jar \
-    -Dspring.config.location=classpath:/application.properties,classpath:/application-$IDLE_PROFILE.properties \
-    -Dspring.profiles.active=$IDLE_PROFILE \
-    $JAR_NAME > $REPOSITORY/nohup.out 2>&1 &
+CMD java -jar -Dspring.profiles.active=${active} S_PCO_T-*.jar
