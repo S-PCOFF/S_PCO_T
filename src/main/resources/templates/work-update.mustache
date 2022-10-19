@@ -1,0 +1,32 @@
+{{>layout/header}}
+
+<h1>게시글 수정</h1>
+
+<div class="col-md-12">
+    <div class="col-md-4">
+        <form>
+            <input type="number" class="form-control" id="idx" value="{{work.idx}}" placeholder="제목을 입력하세요" hidden>
+            <div class="form-group">
+                <label for="id">id</label>
+                <input type="number" class="form-control" id="id" value="{{work.id}}" placeholder="제목을 입력하세요" readonly>
+            </div>
+            <div class="form-group">
+                <label for="name">이름</label>
+                <input type="text" class="form-control" id="name" value="{{work.name}}" placeholder="제목을 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="workDate"> 근무일자 </label>
+                <input type="text" class="form-control" id="workDate" value="{{work.workDate}}" placeholder="작성자를 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="workMinute"> 근무시간 </label>
+                <input type="text" class="form-control" id="workMinute" value="{{work.workMinute}}" placeholder="작성자를 입력하세요">
+            </div>
+        </form>
+        <button type="button" class="btn btn-primary" id="btn-work-update">수정 완료</button>
+        <button type="button" class="btn btn-danger" id="btn-work-delete">삭제</button>
+        <a href="/work" role="button" class="btn btn-secondary">취소</a>
+    </div>
+</div>
+
+{{>layout/footer}}

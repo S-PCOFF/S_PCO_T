@@ -1,0 +1,47 @@
+{{>layout/header}}
+
+<h1>PCO 일정등록 서비스</h1>
+<div class="col-md-12">
+    <!--로그인 기능 영역-->
+    <div class="row">
+        <div class="col-md-6">
+            {{#userId}}
+            <a href="/work/save/{{userId}}" role="button" class="btn btn-primary">근무등록</a>
+            {{/userId}}
+            {{#userName}}
+                Logged in as: <span id="user">{{userName}}</span>
+                <a href="/logout" class="btn btn-info active" role="button">Logout</a>
+            {{/userName}}
+            {{^userName}}
+                <a href="/oauth2/authorization/google" class="btn btn-success active" role="button">Google Login</a>
+                <a href="/oauth2/authorization/naver" class="btn btn-secondary active" role="button">Naver Login</a>
+            {{/userName}}
+        </div>
+    </div>
+    <br>
+    <!-- 목록 출력 영역 -->
+    <table class="table table-horizontal table-bordered">
+        <thead class="thead-strong">
+        <tr>
+            <th>근무번호</th>
+            <th>이름</th>
+            <th>근무일자</th>
+            <th>근무시간</th>
+            <th>최종수정일</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+        {{#work}}
+            <tr>
+                <td>{{idx}}</td>
+                <td><a href="/work/update/{{idx}}">{{name}}</a></td>
+                <td>{{workDate}}</td>
+                <td>{{workMinute}}</td>
+                <td>{{modifiedDate}}</td>
+            </tr>
+        {{/work}}
+        </tbody>
+    </table>
+</div>
+
+{{>layout/footer}}

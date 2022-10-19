@@ -4,37 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="JPA 적용버전 업데이트4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/LoginUserArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/dto/PostsListResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/header.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-save.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-update.mustache" afterDir="false" />
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="JPA&#10;스프링 시큐리티와 OAuth 2.0&#10;구글/네이버 로그인 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/work/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/work/WorkRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/service/work/WorkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/WorkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/dto/WorkListResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/dto/WorkResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/dto/WorkSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/dto/WorkUpdateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/work-index.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/work-save.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/work-update.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/dto/OAuthAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/dto/OAuthAttributes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/dto/SessionUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/conf/auth/dto/SessionUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/posts/PostsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/CustomOAuth2UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/CustomOAuth2UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/domain/user/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/service/posts/PostsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/HelloController2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/PostsApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/shds/pco/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shds/pco/web/PostsApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1161,16 +1148,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ShinhanDS/git/PC_OFF/S_PCO_T",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ShinhanDS/git/PC_OFF/S_PCO_T/src/main/resources/templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T\src\main\resources\templates" />
       <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T" />
       <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T\src\main\resources" />
     </key>
@@ -1182,6 +1170,7 @@
       <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T\scripts" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shds.pco.web.dto" />
       <recent name="com.shds.pco" />
     </key>
   </component>
@@ -1285,13 +1274,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
-    </task>
-    <task id="LOCAL-00054" summary="무중단배포 테스트1">
-      <created>1664345608374</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1664345608374</updated>
     </task>
     <task id="LOCAL-00055" summary="무중단배포 테스트2">
       <created>1664345995670</created>
@@ -1629,7 +1611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664878341811</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="JPA&#10;스프링 시큐리티와 OAuth 2.0&#10;구글/네이버 로그인 추가">
+      <created>1664953244691</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1664953244691</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1655,7 +1644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="쉘수정2" />
     <MESSAGE value="쉘수정3" />
     <MESSAGE value="쉘수정4" />
     <MESSAGE value="쉘수정5" />
@@ -1680,7 +1668,8 @@
     <MESSAGE value="JPA 적용버전 업데이트2" />
     <MESSAGE value="JPA 적용버전 업데이트3" />
     <MESSAGE value="JPA 적용버전 업데이트4" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA 적용버전 업데이트4" />
+    <MESSAGE value="JPA&#10;스프링 시큐리티와 OAuth 2.0&#10;구글/네이버 로그인 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA&#10;스프링 시큐리티와 OAuth 2.0&#10;구글/네이버 로그인 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
