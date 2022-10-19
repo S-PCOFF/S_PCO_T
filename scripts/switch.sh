@@ -13,6 +13,6 @@ function switch_proxy() {
     echo "> Port 전환"
     echo "set \$service_url http://3.37.219.183:${IDLE_PORT};" | sudo tee /etc/nginx/conf.d/service-url.inc
 
-    sudo docker exec -d nginx nginx -s reload
-    echo "> docker exec -it nginx nginx -s reload"
+    echo "> 엔진엑스 Reload"
+    sudo service nginx reload
 }
