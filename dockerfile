@@ -1,4 +1,4 @@
-FROM openjdk:1.8.0_342
+FROM openjdk:8
 
 WORKDIR /root
 
