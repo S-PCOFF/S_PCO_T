@@ -32,10 +32,11 @@ public class IndexController {
 
     @GetMapping("/")
     public String index() {
+        log.info("oh1==========================");
         List<String> profile = Arrays.asList(env.getActiveProfiles());
         List<String> realProfiles = Arrays.asList("real1", "real2");
         String defaultProfile = profile.isEmpty() ? "default" : profile.get(0);
-
+        log.info("oh2=========================="+ defaultProfile);
         return profile.stream()
                 .filter(realProfiles::contains)
                 .findAny()
