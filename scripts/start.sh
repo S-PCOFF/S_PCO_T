@@ -6,7 +6,7 @@ ABSPATH=$(readlink -f $0)
 ABSDIR=$(dirname $ABSPATH)
 source ${ABSDIR}/profile.sh
 
-#PROJECT_NAME=S_PCO_T
+PROJECT_NAME=S_PCO_T
 IDLE_PORT=$(find_idle_port)
 REPOSITORY=/home/ec2-user/app/step4
 
@@ -14,6 +14,7 @@ echo "> Build 파일 복사"
 echo "> cp $REPOSITORY/*.jar $REPOSITORY/"
 
 cp $REPOSITORY/zip/*.jar $REPOSITORY      # 새로운 jar file 계속 덮어쓰기
+cp $REPOSITORY/zip/dockerfile $REPOSITORY
 
 echo "> 새 어플리케이션 배포"
 JAR_NAME=$(ls -tr $REPOSITORY/*.jar | tail -n 1)
