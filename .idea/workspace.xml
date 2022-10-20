@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="docker 연동 테스트1" />
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="docker 연동 테스트2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1260,13 +1263,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00066" summary="무중단배포 테스트10">
-      <created>1664355304028</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1664355304028</updated>
-    </task>
     <task id="LOCAL-00067" summary="무중단배포 테스트11">
       <created>1664355658987</created>
       <option name="number" value="00067" />
@@ -1603,7 +1599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666230366465</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="docker 연동 테스트2">
+      <created>1666230829014</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1666230829014</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1680,11 +1683,11 @@
     <MESSAGE value="docker 설절파일 추가" />
     <MESSAGE value="서버재기동" />
     <MESSAGE value="docker 연동 테스트" />
-    <MESSAGE value="docker 연동 테스트2" />
     <MESSAGE value="docker 연동 테스트3" />
     <MESSAGE value="docker 연동 테스트 롤백" />
     <MESSAGE value="docker 연동 테스트1" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker 연동 테스트1" />
+    <MESSAGE value="docker 연동 테스트2" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker 연동 테스트2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
