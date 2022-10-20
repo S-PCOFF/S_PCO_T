@@ -4,14 +4,14 @@ version: 0.0
 os: linux
 files:
   - source:  /
-    destination: /home/ec2-user/app/step4/zip/
+    destination: /home/ec2-user/app/step4
     overwrite: yes
 
 permissions:
   - object: /
     pattern: "**"
     owner: ec2-user
-    group: ec2-user
+    group: root
 
 hooks:
   AfterInstall:
