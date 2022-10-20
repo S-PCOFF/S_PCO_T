@@ -2,6 +2,6 @@ FROM openjdk:8
 
 WORKDIR /root
 
-COPY ./demo-0.0.1-SNAPSHOT.jar .
+COPY ./home/ec2-user/app/step4/S_PCO_T-*.jar .
 
-CMD java -jar -Dspring.profiles.active=${active} demo-0.0.1-SNAPSHOT.jar
+CMD java -jar -Dspring.profiles.active=${active} S_PCO_T-*.jar
