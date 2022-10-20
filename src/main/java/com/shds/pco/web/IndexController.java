@@ -7,12 +7,15 @@ import com.shds.pco.service.work.WorkService;
 import com.shds.pco.web.dto.PostsResponseDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import javax.servlet.http.HttpSession;
+import java.util.Arrays;
+import java.util.List;
 
 @RequiredArgsConstructor
 @Controller
@@ -25,19 +28,21 @@ public class IndexController {
 
     private final HttpSession httpSession;
 
-//    @GetMapping("/")
-//    public String index(Model model) {
-//        model.addAttribute("posts", postsService.findAllDesc());
-//        SessionUser user = (SessionUser) httpSession.getAttribute("user");
-//
-//        if (user != null) {
-//            model.addAttribute("userName", user.getName());
-//        }
-//
-//        return "index";
-//    }
+    private final Environment env;
 
     @GetMapping("/")
+    public String index() {
+        List<String> profile = Arrays.asList(env.getActiveProfiles());
+        List<String> realProfiles = Arrays.asList("real1", "real2");
+        String defaultProfile = profile.isEmpty() ? "default" : profile.get(0);
+
+        return profile.stream()
+                .filter(realProfiles::contains)
+                .findAny()
+                .orElse(defaultProfile);
+    }
+
+    /*@GetMapping("/")
     public String index(Model model, @LoginUser SessionUser user) {
         model.addAttribute("posts", postsService.findAllDesc());
 
@@ -46,7 +51,7 @@ public class IndexController {
         }
 
         return "index";
-    }
+    }*/
 
     @GetMapping("/posts/save")
     public String postsSave() {
