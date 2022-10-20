@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="docker 연동 테스트3">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="docker 연동 테스트 롤백">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/health.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/health.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/profile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/profile.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start.sh" afterDir="false" />
@@ -1138,17 +1140,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ShinhanDS/git/PC_OFF/S_PCO_T/src/main/resources/templates",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propCompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ShinhanDS/git/PC_OFF/S_PCO_T/src/main/resources/templates&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ShinhanDS\git\PC_OFF\S_PCO_T\src\main\resources\templates" />
@@ -1267,13 +1269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
-    </task>
-    <task id="LOCAL-00064" summary="무중단배포 테스트8">
-      <created>1664349124685</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1664349124685</updated>
     </task>
     <task id="LOCAL-00065" summary="무중단배포 테스트9">
       <created>1664354712787</created>
@@ -1611,7 +1606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666168773298</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="docker 연동 테스트 롤백">
+      <created>1666169015165</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1666169015165</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1667,7 +1669,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SecurityConfig 수정" />
     <MESSAGE value="ProfileController 수정" />
     <MESSAGE value="build.gradle 수정" />
     <MESSAGE value="재배포" />
@@ -1692,7 +1693,8 @@
     <MESSAGE value="docker 연동 테스트" />
     <MESSAGE value="docker 연동 테스트2" />
     <MESSAGE value="docker 연동 테스트3" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker 연동 테스트3" />
+    <MESSAGE value="docker 연동 테스트 롤백" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker 연동 테스트 롤백" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
