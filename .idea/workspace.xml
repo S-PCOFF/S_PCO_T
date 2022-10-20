@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="docker 연동 테스트5" />
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="docker 연동 테스트6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1260,13 +1264,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00070" summary="무중단배포 테스트15">
-      <created>1664358271648</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1664358271648</updated>
-    </task>
     <task id="LOCAL-00071" summary="무중단배포 테스트15">
       <created>1664358318995</created>
       <option name="number" value="00071" />
@@ -1603,7 +1600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666242057389</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="docker 연동 테스트6">
+      <created>1666242357345</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1666242357346</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1659,7 +1663,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="테스트 배포" />
     <MESSAGE value="profile.sh 수정" />
     <MESSAGE value="profile.sh 수정2" />
     <MESSAGE value="재배포 테스트" />
@@ -1684,7 +1687,8 @@
     <MESSAGE value="docker 연동 테스트3" />
     <MESSAGE value="docker 연동 테스트4" />
     <MESSAGE value="docker 연동 테스트5" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker 연동 테스트5" />
+    <MESSAGE value="docker 연동 테스트6" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker 연동 테스트6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

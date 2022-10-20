@@ -21,7 +21,7 @@ apply plugin: 'io.spring.dependency-management'
 }*/
 
 group 'com.shds.pco'
-version '1.0.3-SNAPSHOT-' + new Date().format("yyyyMMddHHmmss")
+version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
 
