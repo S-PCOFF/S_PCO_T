@@ -14,8 +14,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import javax.servlet.http.HttpSession;
-import java.util.Arrays;
-import java.util.List;
 
 @RequiredArgsConstructor
 @Controller
@@ -31,19 +29,6 @@ public class IndexController {
     private final Environment env;
 
     @GetMapping("/")
-    public String index() {
-        log.info("oh1==========================");
-        List<String> profile = Arrays.asList(env.getActiveProfiles());
-        List<String> realProfiles = Arrays.asList("real1", "real2");
-        String defaultProfile = profile.isEmpty() ? "default" : profile.get(0);
-        log.info("oh2=========================="+ defaultProfile);
-        return profile.stream()
-                .filter(realProfiles::contains)
-                .findAny()
-                .orElse(defaultProfile);
-    }
-
-    /*@GetMapping("/")
     public String index(Model model, @LoginUser SessionUser user) {
         model.addAttribute("posts", postsService.findAllDesc());
 
@@ -52,7 +37,7 @@ public class IndexController {
         }
 
         return "index";
-    }*/
+    }
 
     @GetMapping("/posts/save")
     public String postsSave() {
