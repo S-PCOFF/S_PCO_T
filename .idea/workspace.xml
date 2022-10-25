@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="docker 연동 테스트22">
+    <list default="true" id="e7262369-b887-436e-af33-a970534446fa" name="Changes" comment="docker 연동 테스트01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/health.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/health.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/profile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/profile.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shds/pco/web/IndexController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1265,13 +1262,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663895776185</updated>
     </task>
-    <task id="LOCAL-00086" summary="SecurityConfig 추가">
-      <created>1664365804525</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1664365804525</updated>
-    </task>
     <task id="LOCAL-00087" summary="SecurityConfig 수정">
       <created>1664366081818</created>
       <option name="number" value="00087" />
@@ -1608,7 +1598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666251621189</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="docker 연동 테스트01">
+      <created>1666677310355</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1666677310355</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1664,7 +1661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="docker 설절파일 추가" />
     <MESSAGE value="서버재기동" />
     <MESSAGE value="docker 연동 테스트" />
     <MESSAGE value="docker 연동 테스트 롤백" />
@@ -1689,7 +1685,8 @@
     <MESSAGE value="docker 연동 테스트20" />
     <MESSAGE value="docker 연동 테스트21" />
     <MESSAGE value="docker 연동 테스트22" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker 연동 테스트22" />
+    <MESSAGE value="docker 연동 테스트01" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker 연동 테스트01" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
